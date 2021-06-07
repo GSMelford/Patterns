@@ -2,9 +2,9 @@ namespace BuilderPattern.Components
 {
     public abstract class Component
     {
-        public string Name { get; set; }
+        public string Name { get;}
 
-        public Component(string name)
+        protected Component(string name)
         {
             Name = name;
         }

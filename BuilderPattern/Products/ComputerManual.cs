@@ -1,5 +1,3 @@
-using BuilderPattern.Interfaces;
-
 namespace BuilderPattern.Products
 {
     public class ComputerManual

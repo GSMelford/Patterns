@@ -1,5 +1,3 @@
-using System;
-
 namespace BuilderPattern.Interfaces
 {
     public interface IComputer

@@ -70,7 +70,7 @@ namespace BuilderPattern.Products
 
         public override string ToString()
         {
-            return $"Your Computer:\n" +
+            return  "Your Computer:\n" +
                    $"CPU: {Cpu?.Name} Gigahertz: {Cpu?.Gigahertz} Cores: {Cpu?.Cores}\n" +
                    $"MotherCard: {MotherCard?.Name} RamSlots: {MotherCard?.RamSlots}\n" +
                    $"Ram: {Ram?.Name} Numbers: {Ram?.NumberPlanks}\n" +

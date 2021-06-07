@@ -1,4 +1,3 @@
-using System;
 using BuilderPattern.Components;
 
 namespace BuilderPattern.Products
