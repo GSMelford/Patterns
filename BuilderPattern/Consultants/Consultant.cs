@@ -23,7 +23,7 @@ namespace BuilderPattern.Consultants
                 .SetVideoCard(new VideoCard("MSI PCI-Ex GeForce RTX 3090 GAMING X TRIO 24GB GDDR6X", 24));
         }
 
-        public void ClassicComputer()
+        public void BuildClassicComputer()
         {
             _builder
                 .SetMotherCard(new MotherCard("Dell E93839 TE0423", 1))

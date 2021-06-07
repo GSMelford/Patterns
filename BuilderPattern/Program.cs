@@ -20,12 +20,12 @@ namespace BuilderPattern
             Console.WriteLine(computerBuilder.GetComputer().ToString());
             
             Console.WriteLine("Building a classic computer:");
-            consultant.ClassicComputer();
+            consultant.BuildClassicComputer();
             Console.WriteLine(computerBuilder.GetComputer().ToString());
             
             Console.WriteLine("Building a manual for classic computer:");
             consultant.Builder = computerManualBuilder;
-            consultant.ClassicComputer();
+            consultant.BuildClassicComputer();
             Console.WriteLine(computerManualBuilder.GetComputerManual().ToString());
 
             CreateComputer();
